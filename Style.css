@@ -1,0 +1,85 @@
+body{
+    background-image: url(3692584.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    display: inline-block;
+    width: 16%;
+    height: 20%;
+    margin: 20px;
+}
+#nav{
+    position: absolute;
+    top: 2%;
+    left: 33%;
+    width: 60%;
+    font-size: 30px;
+}
+li a{
+    text-decoration: none;
+}
+li {
+    display: inline;
+    float: right;
+    margin: 15px;
+}
+
+a{
+    color:rgb(0, 0, 0)
+}
+li a:hover{
+    color: rgb(56, 212, 240);
+    border: 5px solid rgb(255, 245, 245);
+    border-radius:10px ;
+}
+
+#hi-link{
+    border-radius: 7px;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+}
+header{
+    background-color: #906538;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#big{
+    color: #dac591;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    font-size: 60px;
+}
+#od{
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+    color: rgba(39, 207, 95, 0.747);
+    left: 11%;
+}
+#big-order{
+    color: saddlebrown;
+}
+#button{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+#shop ,#shop-1{
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+#shop{
+    background-color: orangered;
+    color: white;
+}
+#shop:hover{
+    background-color: #dac591;
+}
